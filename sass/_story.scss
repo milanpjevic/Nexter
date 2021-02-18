@@ -20,8 +20,8 @@
 	}
 	&__img--2 {
 		width: 115%;
-		grid-row: row-start 4 / -1;
-		grid-column: col-start 4 / -1;
+		grid-row: row-start 4 / row-end 6;
+		grid-column: col-start 4 / col-end 6;
 		align-self: flex-start;
 		box-shadow: 0 2rem 5rem rgba(#000, 0.2);
 		z-index: 20;
